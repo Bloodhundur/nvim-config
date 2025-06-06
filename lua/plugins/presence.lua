@@ -1,5 +1,5 @@
 return {
-  "ndwueeb/presence.nvim",
+  "andweeb/presence.nvim",
   event = "VeryLazy",
   config = function()
     require("presence").setup({
