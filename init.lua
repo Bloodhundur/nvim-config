@@ -7,5 +7,6 @@ vim.lsp.enable({
 'rust_analyzer',
 'cssls',
 'typejavascript',
-'pyright'
+'pyright',
+'clangd'
 })
