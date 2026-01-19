@@ -9,5 +9,7 @@ vim.lsp.enable({
 'cssls',
 'typejavascript',
 'pyright',
-'clangd'
+'clangd',
+'csharp_ls',
+'bashls'
 })
