@@ -8,6 +8,12 @@ vim.diagnostic.config({
 	float = {
 	},
 })
+
+-- Correctly set global folding options
+vim.opt.foldmethod = "indent"  -- Uses indentation levels for folds
+vim.opt.foldenable = true      -- Ensures folding is turned on
+vim.opt.foldlevel = 99         -- Starts with all folds open (optional)
+
 vim.opt.number = true
 vim.lsp.enable({
 	'jdtls',
@@ -18,5 +24,6 @@ vim.lsp.enable({
 	'pyright',
 	'clangd',
 	'csharp_ls',
-	'bashls'
+	'bashls',
+	'qmlls'
 })
